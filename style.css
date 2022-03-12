@@ -1,0 +1,141 @@
+/* Write some CSS below */
+
+h1 {
+	color: #dddddd;
+	font-size:0px;
+	font-family: Open Sans;
+	font-weight: normal;
+	}
+
+
+h3 {
+	color: #8e8e8e;
+	font-size: 32px;
+	font-family: Open Sans;
+	padding-top: 10px;
+	font-weight: normal;
+	}
+
+p {
+	color: #8e8e8e;
+	font-size: 21px;
+	font-family: Open Sans;
+	box-shadow: 20px 20px x 20px red;
+	padding-bottom: 10px;
+	font-weight: lighter;
+	}
+
+ul{
+	float: center;
+	margin-left:auto;
+	margin-right: auto;
+	list-style-type: none;
+	text-decoration: none !important;
+	display: inline-flex;
+	justify-content: space-around;
+	width: 1100px;
+	padding: 0px;
+	color: #757575;
+	}
+
+li {
+	color: #757575;
+	font-size: 10px;
+	font-family: Open Sans;
+	text-decoration: none !important;
+	}
+
+a {
+	color: #757575;
+	font-size: 21px;
+	font-family: Open Sans;
+	}
+
+
+
+body {
+	background-color: white; 
+	line-height: 1;
+	opacity: 1; 
+	border: 20px solid white;
+	border-radius: 5px;
+	margin: 0px auto;
+	padding: 10px; 
+}
+
+	#foto-perfil {
+  width: 500;
+	height: 500px;
+	border-radius: 25%;
+}
+
+#foto-london {
+  width: 300px;
+	height: 300px;
+	border-radius: 1%;
+	display: inline-block;
+	margin-left:auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 5px darkgrey;
+	margin-bottom: 25px;
+	white-space: 20px;
+}
+
+.social-media{
+		justify-content: center;
+		color: #757575;
+}
+
+.foto-paris{
+  box-shadow: 5px 5px 5px darkgrey;
+}
+
+.text-justify{text-align: justify;
+}
+
+a{
+	color: #757575;
+	text-decoration: none;
+	font-size: 25px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+a: hover{
+	text-decoration: underline;
+}
+
+.container {
+	width: 1100px;
+	margin: 10px auto;
+}
+
+.card-white {
+	padding: 40px;
+	box-shadow: 0px 10 px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 0px 0px;
+	text-align: center;
+}
+
+.btn-duma{
+	background-color: #757575;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 3px;
+	}
+
+.galeria {
+    display: inline-block;
+    vertical-align: middle;
+    align-content: center;
+	}
+
+
+}
+@media (max-width: 320px){
+	.container{
+		color: red;
+		foto-london: 700px;
+	}
+}
